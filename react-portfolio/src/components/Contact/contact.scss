@@ -1,0 +1,55 @@
+.contact-session{
+    margin-top: 100px;
+    width: 100%;
+    height: 80vh;
+    .contact{
+        width: 100%;
+        height: 100%;
+        .form-session{
+            width: 100%;
+            height: 30%;
+            background-color: #fefefe;
+            .content{
+                width: 100%;
+                height: 100%;
+                padding: 10px;
+                padding-top: 5%;
+                .font{
+                    display: flex;
+                    margin-bottom: 10px;
+                    align-items: center;
+                    h4{
+                        opacity: 0;
+                        margin: 0;
+                        font-size: 10px;
+                        margin-top: 5px;
+                        margin-left: 30px;
+                        animation: fadeInUp;
+                        animation-duration: 1s;
+                        animation-fill-mode: forwards;
+                    }
+                }
+            }
+        }
+        .map-session{
+            width: 100%;
+            height: 65%;
+            .map-wrap {
+                background: rgba(8, 253, 216, 0.1);
+                float: right;
+                width: 100%;
+                height: 100%;
+              }
+              
+              .leaflet-container {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                animation: backInRight 1s 1.2s;
+                animation-fill-mode: forwards;
+              }
+              
+        }
+    }
+}

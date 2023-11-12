@@ -1,0 +1,262 @@
+.home-session{
+    padding-top: 100px;
+    width: 100%;
+    height: 80vh;
+    .home-logo{
+        width: 100%;
+        height: 50%;
+        .logo-container{
+            width: 70%;
+            height: 90%;
+            margin: 0 auto;
+            margin-top: 10px;
+            padding: 10px;
+            .logo-paths{
+                width: 80%;
+                height: 100%;
+                margin: 0 auto;
+                display: flex;
+                .first-line{
+                    width: 30%;
+                    height: 98%;
+                    display: flex;
+                    .line1,.line2,.line3,.line4{
+                            width: 25%;
+                            height: 100%;
+
+                            .block1,.block2,.block3,.block4,.block5,.block6,.block7,.block8,.block9,.block0,
+                            .block11,.block12,.block13,.block14,.block15,.block16,.block17,.block18,.block19,.block20,
+                            .block21,.block22,.block23,.block24,.block25,.block26,.block27,.block28,.block29,.block30,
+                            .block31,.block32,.block33,.block34,.block35,.block36,.block37,.block38,.block39,.block40
+                            {
+                                width: 100%;
+                                height: 10%;
+                                background-color: #fff;
+                                position: relative;
+                                z-index: 99999;
+                            }
+                        
+                    }  
+                    .line1{
+                        transform: translateX(5px);
+                    }
+                }
+
+                .second-line{
+                    width: 75%;
+                    height: 100%;
+                    .upper-path{
+                        width: 100%;
+                        height: 40%;
+                        transform: translateX(-20px);
+                        clip-path: polygon(35% 0%, 81% 0, 43% 100%, 0% 100%);                    
+
+                        .line5,.line6,.line7,.line8{
+                            width: 100%;
+                            height: 25%;
+                            display: flex;
+                            .block41,.block42,.block43,.block44,.block45,.block46,.block47,.block48,.block49,.block50,
+                            .block51,.block52,.block53,.block54,.block55,.block56,.block57,.block58,.block59,.block60,
+                            .block61,.block62,.block63,.block64,.block65,.block66,.block67,.block68,.block69,.block70,
+                            .block71,.block72,.block73,.block74,.block75,.block76,.block77,.block78,.block79,.block80
+                            {
+                                width: 10%;
+                                height: 100%;
+                                background-color: #fff;
+                                position: relative;
+                                z-index: 99999;
+                            }
+                        }
+                    }
+                    .lower-path{
+                        width: 100%;
+                        height: 60%;
+                        display: flex;
+                        transform: translateY(-5px) translateX(-5px);
+
+                        .left-side{
+                            width: 20%;
+                            height: 100%;
+                            .left-upper{
+                                width: 100%;
+                                height: 50%;
+                                transform: translateY(-5px);
+                                .upper-1{
+                                    width: 35%;
+                                    height: 100%;
+                                    .block81,.block82,.block83,.block84,.block85,.block86,.block87,.block88,.block89,.block90{
+                                        width: 100%;
+                                        height: 10%;
+                                        background-color: #fff;
+                                        position: relative;
+                                        z-index: 99999;
+                                    }
+                                }
+                            }
+                            .left-lower{
+                                width: 100%;
+                                height: 50%;
+                                transform: translateY(-25px);
+                                clip-path: polygon(0 0, 100% 0,0 68%, 0 78%);                            
+                                .lower-1{
+                                    width: 35%;
+                                    height: 100%;
+                                    .block91,.block92,.block93,.block94,.block95,.block96,.block97,.block98,.block99,.block100
+                                    {
+                                        width: 100%;
+                                        height: 10%;
+                                        background-color: #fff;
+                                        position: relative;
+                                        z-index: 99999;
+                                    }
+                                }
+                            }                        
+                        }
+                        .right-side{
+                            width: 81%;
+                            height: 100%;
+                            // background-color: #fff;  **
+                            transform: translateY(-1px) translateX(-20px);
+                            clip-path: polygon(32% 0, 90% 100%, 31% 100%, 0 49%, 0 0); 
+
+                            .rL-1,.rL-2,.rL-3,.rL-4,.rL-5{
+                                width: 100%;
+                                height: 20%;
+                                display: flex;
+                                .block101,.block102,.block103,.block104,.block105,.block106,.block107,.block108,.block109,.block110,
+                                .block111,.block112,.block113,.block114,.block115,.block116,.block117,.block118,.block119,.block120,
+                                .block121,.block122,.block123,.block124,.block125,.block126,.block127,.block128,.block129,.block130,
+                                .block131,.block132,.block133,.block134,.block135,.block136,.block137,.block138,.block139,.block140,
+                                .block141,.block142,.block143,.block144,.block145,.block146,.block147,.block148,.block149,.block150
+                                {
+                                    width: 10%;
+                                    height: 100%;
+                                    background-color: #fff;
+                                    position: relative;
+                                    z-index: 99999;
+                                }
+                            }                 
+                        }
+                            
+                    }
+                }
+            }
+        }
+    }
+    .home-content{
+        height: 40%;
+        background-color: #fffbf8;
+        padding-top: 20px;
+        position: relative;
+        .content-container{
+            width: 90%;
+            height: 90%;
+            margin: 0 auto;
+            padding: 10px;
+            padding-left: 20px;
+            h1{
+                
+                span{
+                    font-size: 40px;
+                }
+                
+            }
+            h3{
+                margin-top: 30px;
+                opacity: 0;
+                animation: fadeInUp;
+                animation-duration: 1s;
+                animation-delay: 5s;
+                animation-fill-mode: forwards;
+                color: rgba(0,0,0,0.7);
+            }
+            .fonts{
+                position: absolute;
+                bottom: 0;
+                display: flex;
+                background-color: rgb(32, 32, 32);
+                width: 200px;
+                padding: 10px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                .font{
+                    position: absolute;
+                }
+                .html,.css,.js,.react,.bootstrap,.git{
+                    top: -100vh;
+                }
+                .css{
+                    left: 40px;
+                }
+                .js{
+                    left: 80px;
+                }
+                .react{
+                    left: 120px;
+                }
+                .bootstrap{
+                    left: 160px;
+                }
+                .git{
+                    left: 200px;
+                }
+            }
+        }
+
+    }
+}
+
+//add white background
+
+
+
+// Animation //
+.text-animate {
+    opacity: 0;
+    animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+    color: #ffd700;
+    cursor: pointer;
+  }
+
+  @for $i from 1 through 150 {
+    .text-animate._#{$i} {
+      animation-delay: #{$i / 25}s;
+    }
+  }
+  //Responsive
+
+@media screen and (max-width:400px) {
+    .home-session{
+          max-height:80vh;
+          .home-logo{
+            max-height: 40%;
+          }
+          .home-content{
+            height: 50%;
+          }
+    }
+}
+@media screen and (min-width:500px) {
+    .home-session{
+        
+        .home-logo{
+            width: 50%;
+            margin-left: 50%;
+            .logo-container{
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (min-width:900px){
+    .home-session{
+
+        .home-logo{
+            width: 30%;
+        }
+    }
+}
